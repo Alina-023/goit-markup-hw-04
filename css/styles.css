@@ -128,7 +128,14 @@ body {
 }
 
 .hero {
-        background: #2E2F42;
+        
+        max-width: 1440px;
+        margin: 0 auto;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/People-office.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         padding: 188px 0;
         
 }
@@ -202,6 +209,7 @@ body {
 .services-title {
 
         margin-bottom: 8px;
+        margin-top: 8px;
 }
 .services-list {
         display: flex;
@@ -305,7 +313,50 @@ body {
         color: #434455;
         text-align: center;
 }
+.team-social-list-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #4D5AE5;
+}
+.team-soc-links {
+        display: flex;
+        gap: 24px;
+        margin-top: 8px;
+}
 
+
+/*-------------------------CUSTOMERS------------------*/
+.customers {
+        padding: 120px 0;
+}
+.customers-title{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.1;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                color: var(--title-color)
+}
+
+.customers-list {
+        display: flex;
+       justify-content: center;
+       gap: 24px;
+       margin-top: 72px;
+
+}
+.customers-list-icon{
+        border: 1px solid;
+        border-color: #8E8F99;
+        border-radius: 4px;
+}
 
 /*-----------------------------FOOTER--------------------*/
 
@@ -313,7 +364,20 @@ body {
 .footer {
         background: #2E2F42;
         padding: 100px 0;
+        display: flex;
+
 }
+
+
+.footer-right-title {
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
 
 
 .footer-logo {
@@ -339,7 +403,7 @@ body {
         width: 264px;
 }
 .footer-span {
-    font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -348,7 +412,21 @@ body {
         text-transform: uppercase;
         color: #F4F4FD;
 }
+.footer-social-link{
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #4D5AE5;
+}
+.footer-list-icons {
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+}
 /*------------PORTFOLIO-------------*/
 
 
