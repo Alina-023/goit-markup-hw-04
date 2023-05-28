@@ -213,12 +213,30 @@ body {
 .services-title {
 
         margin-bottom: 8px;
-        margin-top: 8px;
+        
 }
+
+/*-----------------!!!!!!!!!!!!!----------------------------*/
+
 .services-list {
         display: flex;
         gap: 24px;
 }
+/*-----------------!!!!!!!!!!!!!----------------------------*/
+
+.services-icon-container{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+
+}
+
+
 .services-text { 
     
         font-weight: 400;
